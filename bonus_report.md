@@ -235,12 +235,8 @@ python simulated_arpo_runner.py
 ## ARPO Results 
 
 We simulated ARPO using a simple reward function (x is True when the task is successful and False when it fails):
-    $$
-    reward(x) = \begin{cases}
-    1 & x = True \\
-    0 & x = False
-    \end{cases}
-    $$
+
+![Image description](equation.png)
 
 We then run we Android World environment (only 2 tasks) and we obtained the following results:
 

@@ -116,6 +116,16 @@ The optimization loop will consist of the following phases, executed iteratively
 ├── Screenshot_1753561726.png
 └── text2grad_opt.py
 ```
+
+# Dependencies
+
+```
+pip install langchain_community
+pip install transformers
+pip install torch
+pip install accelerate
+```
+
 # The Gemini 2.5 pro Generated Prompts
 
 To generate prompts using Gemini we wrote the `gemini_prompting.py` file with the `generate_prompt_from_screenshot` function that call Gemini with a prompt and screenshot of the emulator. The file can be called as a script and it will generate three images if the predetermined images are not in the directory (two squares of a color images and a home screenshot of the emulator) and called Gemini to output the prompt. 
